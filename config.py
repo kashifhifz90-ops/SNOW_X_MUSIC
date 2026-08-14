@@ -22,12 +22,12 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamvillain77")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/villainmusicbots")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SNOW_X_MUSIC")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/bakafamly")
 
         self.API_URL = getenv("API_URL", "https://pvtz.nexgenbots.xyz")
         self.VIDEO_API_URL = getenv("VIDEO_API_URL", "https://api.video.nexgenbots.xyz")
-        self.API_KEY = getenv("API_KEY", "30DxNexGenBotsb8b568") # Get this value from https://console.nexgenbots.xyz
+        self.API_KEY = getenv("API_KEY", "30DxNexGenBots2f7ada) # Get this value from https://console.nexgenbots.xyz
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "true"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "true"
