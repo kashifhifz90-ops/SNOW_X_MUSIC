@@ -49,7 +49,7 @@ class Userbot(Client):
         client = clients[num]
         await client.start()
         try:
-            await client.send_message(config.LOGGER_ID, "Assistant Started")
+            await client.send_message(config.LOGGER_ID, "I AM ALIVE 🩷")
         except Exception:
             raise SystemExit(f"Assistant {num} failed to send message in log group.")
 
