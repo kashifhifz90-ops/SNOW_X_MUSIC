@@ -86,7 +86,7 @@ EOF
 
 
 clear
-pprint "Welcome to the AnonXMusic Installation Setup\n\n" "cmagenta"
+pprint "Welcome to the SnowXMusic Installation Setup\n\n" "cmagenta"
 sleep 1
 
 update
