@@ -1,6 +1,5 @@
 echo "ROOT CHECK"
 ls -R
-
 echo "RUNNING BOT"
 export PYTHONPATH=/app
 python3 -m anony
